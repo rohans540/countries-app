@@ -1,0 +1,3 @@
+<div routerLink="/" class="mt-20 flex flex-wrap justify-center gap-7 px-6">
+    <app-flagcard *ngFor="let country of countries" [country]="country" (detailClick)="goToDetail($event)" ></app-flagcard>
+</div>

@@ -1,0 +1,13 @@
+<div class="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full cursor-pointer" (click)="onDetailClick()">
+    <div class="relative w-full h-[210px]">
+        <img 
+            src="{{flagUrl}}"
+            alt="flag-img"
+            class="w-full h-full object-contain rounded-2xl"
+        />
+    </div>
+    <div class="mt-5">
+        <h3 class="text-white font-bold text-[24px]">{{country?.name?.common}}</h3>
+        <p class="mt-2 text-secondary text-[14px]">{{country?.region}}</p>
+    </div>
+</div>
