@@ -27,3 +27,16 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 # countries-app
 A Countries app with (Hardcoded) user authentication and a countries list page and a country details page, fetching list of countries from rest api endpoint
+
+
+# Steps to Setup and run application: 
+1. Clone this repository using: git clone <repository url>
+2. Navigate to repository dir: cd countries-app
+3. Install dependencies: npm install
+4. Run dev server: ng serve
+5. Open your browser and navigate to 'http://localhost:4200'
+6. Authenticate/Log in using one of the following credentials: 
+    Username: admin, Password: admin or 
+    Username: operator, Password: operator
+7. Tech stack used: Angular 15, Tailwind css, REST APi
+
