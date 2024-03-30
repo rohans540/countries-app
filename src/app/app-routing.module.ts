@@ -13,7 +13,8 @@ const routes: Routes = [
   },
   {
     path: 'detail',
-    component: CountryDetailComponent
+    component: CountryDetailComponent,
+    canActivate: [AuthGuard]
   },
   { 
     path: 'login', 
